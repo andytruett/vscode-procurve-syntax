@@ -26,13 +26,28 @@
         },
         {
           "comment": "No and Disable",
-          "name": "invalid.illegal.procurve",
+          "name": "storage.procurve",
           "match": "^\\s*(no|disable)"
         },
         {
           "comment": "Speed-Duplex",
-          "name": "entity.name.selector",
+          "name": "entity.name.selector.procurve",
           "match": ".*speed-duplex.*"
+        },
+        {
+          "comment": "Spanning-Tree",
+          "name": "string.procurve",
+          "match": ".*(spanning-tree).*"
+        },
+        {
+          "comment": "Trunk",
+          "name": "storage.modifier.procurve",
+          "match": ".*trunk.*"
+        },
+        {
+          "comment": "IGMP",
+          "name": "entity.other.attribute-name.procurve",
+          "match": ".*igmp.*"
         },
         {
           "comment": "DHCP Snooping",
@@ -61,7 +76,7 @@
         },
         {
           "comment": "VLAN",
-          "name": "support.type.property-name",
+          "name": "markup.deleted",
           "match": ".*vlan.*"
         },
         {
