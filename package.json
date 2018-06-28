@@ -1,0 +1,30 @@
+{
+    "name": "vscode-procurve-syntax",
+    "displayName": "HP Procurve Config Syntax",
+    "description": "Syntax highlighting for HP/Aruba Procurve switch configurations",
+    "version": "0.0.1",
+    "publisher": "AndyTruett",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/andytruett/vscode-procurve-syntax.git"
+    },
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "hp",
+            "aliases": ["HP Procurve", "hp"],
+            "extensions": [".txt",".config"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "hp",
+            "scopeName": "text.procurve",
+            "path": "./syntaxes/hp.tmLanguage.json"
+        }]
+    }
+}
