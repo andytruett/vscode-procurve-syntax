@@ -22,7 +22,7 @@
         {
           "comment": "Comments and unimportant stuffs",
           "name": "comment.procurve",
-          "match": "^\\s*(module|;|conf|end|exit).*"
+          "match": "^\\s*(flexible-module|module|;|conf|end|exit).*"
         },
         {
           "comment": "No and Disable",
@@ -71,32 +71,37 @@
         },
         {
           "comment": "Interface",
-          "name": "meta.preprocessor",
+          "name": "meta.preprocessor.procurve",
           "match": ".*(interface|int)\\b.*"
         },
         {
           "comment": "VLAN",
-          "name": "markup.deleted",
+          "name": "markup.deleted.procurve",
           "match": ".*vlan.*"
         },
         {
+          "comment": "OOBM",
+          "name": "invalid.procurve",
+          "match": ".*oobm.*"
+        },
+        {
           "comment": "Untagged",
-          "name": "markup.changed",
+          "name": "markup.changed.procurve",
           "match": "^\\s*untagged.*"
         },
         {
           "comment": "Tagged",
-          "name": "keyword.control.directive",
+          "name": "keyword.control.directive.procurve",
           "match": "^\\s*tagged.*"
         },
         {
           "comment": "Loop Protection",
-          "name": "keyword.control.directive",
+          "name": "keyword.control.directive.procurve",
           "match": "^\\s*loop-protect.*"
         },
         {
           "comment": "Passwords",
-          "name": "punctuation.definition.logical-expression",
+          "name": "punctuation.definition.logical-expression.procurve",
           "match": "^\\s*password.*"
         },
         {
@@ -104,7 +109,7 @@
           "match": "(?<=\\s)(\\d+)(?=[;]|\\s)",
           "captures": {
             "1": {
-              "name": "string"
+              "name": "string.procurve"
             }
           }
         }
