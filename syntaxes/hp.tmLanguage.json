@@ -22,7 +22,7 @@
         {
           "comment": "Comments and unimportant stuffs",
           "name": "comment.procurve",
-          "match": "^\\s*(flexible-module|module|;|conf|end|exit).*"
+          "match": "^\\s*(flexible-module|module|;|conf|end|exit|alias COMMENT).*"
         },
         {
           "comment": "No and Disable",
