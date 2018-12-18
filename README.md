@@ -11,6 +11,7 @@ Visual Studio Code syntax highlighting for HP/Aruba Procurve switch configuratio
 * Interface
 * IP Authorized Managers
 * IPv4 Addresses with/without subnet
+* IPv4 Subnet Masks with differentiated interesting octets
 * Loop Protection
 * No and Disable
 * OOBM
