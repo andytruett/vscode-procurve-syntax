@@ -2,7 +2,8 @@
     "name": "vscode-procurve-syntax",
     "displayName": "HP Procurve Config Syntax",
     "description": "Syntax highlighting for HP/Aruba Procurve switch configurations",
-    "version": "0.0.9",
+    "icon": "icon.png",
+    "version": "1.0.0",
     "publisher": "AndyTruett",
     "repository": {
       "type": "git",
