@@ -3,7 +3,7 @@
   "displayName": "HP Procurve Config Syntax",
   "description": "Syntax highlighting for HP/Aruba Procurve switch configurations",
   "icon": "icon.png",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "andytruett",
   "repository": {
     "type": "git",
