@@ -1,31 +1,42 @@
 {
-    "name": "vscode-procurve-syntax",
-    "displayName": "HP Procurve Config Syntax",
-    "description": "Syntax highlighting for HP/Aruba Procurve switch configurations",
-    "icon": "icon.png",
-    "version": "1.0.0",
-    "publisher": "AndyTruett",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/andytruett/vscode-procurve-syntax.git"
-    },
-    "engines": {
-        "vscode": "^1.24.0"
-    },
-    "categories": [
-        "Programming Languages"
+  "name": "vscode-procurve-syntax",
+  "displayName": "HP Procurve Config Syntax",
+  "description": "Syntax highlighting for HP/Aruba Procurve switch configurations",
+  "icon": "icon.png",
+  "version": "1.1.0",
+  "publisher": "andytruett",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andytruett/vscode-procurve-syntax.git"
+  },
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hp",
+        "aliases": [
+          "HP Procurve",
+          "hp"
+        ],
+        "extensions": [
+          ".config",
+          ".pcc",
+          ".aos"
+        ],
+        "configuration": "./language-configuration.json"
+      }
     ],
-    "contributes": {
-        "languages": [{
-            "id": "hp",
-            "aliases": ["HP Procurve", "hp"],
-            "extensions": [".config",".pcc",".aos"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "hp",
-            "scopeName": "text.procurve",
-            "path": "./syntaxes/hp.tmLanguage.json"
-        }]
-    }
+    "grammars": [
+      {
+        "language": "hp",
+        "scopeName": "text.procurve",
+        "path": "./syntaxes/hp.tmLanguage.json"
+      }
+    ]
+  }
 }

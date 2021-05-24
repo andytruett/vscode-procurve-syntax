@@ -98,6 +98,11 @@
           "match": "^\\s*password.*"
         },
         {
+          "comment": "Central variables",
+          "name": "keyword.control.untitled.procurve",
+          "match": "\\%.+\\%"
+        },
+        {
           "comment": "General numbers",
           "match": "(?<=\\s)(\\d+)(?=[;]|\\s)",
           "captures": {
@@ -153,3 +158,4 @@
   },
   "scopeName": "text.procurve"
 }
+zbpyz4fygwncdg7yhktsj476dppaazan4qrlmjyept3pfxjiehja
